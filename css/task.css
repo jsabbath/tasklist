@@ -1,0 +1,77 @@
+body {
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.titulo_gde{
+	float:left;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	width:100%;
+	text-align:center;
+	font-size:28px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+/*MENU NAVBAR*/
+.navbar-default .navbar-brand {
+	color:#FFF;
+}
+.navbar-default .navbar-brand:hover{
+	color:#F9F9F9;
+	font-weight:bold;
+}
+.navbar-default.navbar-cms{
+	color: #FFF;
+	background-color: #337AB7;
+}
+.navbar-default .navbar-toggle {
+	border-color:#FFF;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background:#FFF;
+}
+.navbar-default .navbar-nav .dropdown-menu{
+	background-color: #FFF;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:#000;
+    background-color: #F4F4F4;
+	border-radius:5px;
+}
+/*conteudo*/
+.font10{
+	font-size:0.9em;
+}
+#pelicula{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#FFF;
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+	z-index:9999;
+	margin-top:-50px;
+	display:none;
+}
+#pelicula img{
+	position:absolute;
+	height:32px;
+	width:32px;
+	left:50%;
+	top:50%;
+	margin-left:-16px;
+	margin-top::-16px;
+}
+#descricao{
+	height:150px;
+}
+td{
+    vertical-align: middle !important;
+}
+.clicavel{
+	cursor:pointer;
+	margin-left:5px;
+}
